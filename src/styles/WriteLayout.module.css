@@ -1,0 +1,132 @@
+.sideBarWrite {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 40px 10px 20px 10px;
+    height: 100%;
+    min-height: 100%;
+    width: 80%;
+}
+
+
+.textAreaInput {
+    border-radius: 15px;
+    width: 95%;
+    height: 100%;
+    min-height: 200px;
+    border-width: 0px;
+    border-color: rgb(216, 216, 216);
+    outline-color: rgba(131, 0, 148, 0.521);
+    outline-width: 1px;
+    padding: 20px 0px 15px 25px;
+    background-color: #9e9e9e27;
+}
+
+.textAreaOutPut {
+    border-radius: 15px;
+    width: 95%;
+    height: 100%;
+    min-height: 200px;
+    border-width: 0px;
+    border-color: rgb(216, 216, 216);
+    outline: 0px;
+    margin: 20px 10px 10px 0px;
+    padding: 20px 0px 15px 25px;
+    background-color: #9e9e9e27;
+}
+
+.textAreaLayout {
+    /* background-color: #9e9e9e17; */
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 0px;
+    position: relative;
+}
+
+.btnGp {
+    display: flex;
+    column-gap: 5px;
+}
+
+
+.customButton {
+    background-color: rgb(231, 231, 231);
+    border: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.customButton:hover {
+    background-color: rgba(210, 138, 252, 0.705);
+    border: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+
+
+.customButtonActive {
+    background-color: rgba(210, 138, 252, 0.705);
+    border: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+
+
+.customSelect {
+    width: 50%;
+    border: 0px;
+    padding: 5px 0px 5px 5px;
+    border-radius: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.customSelect option {
+    border: 0px;
+    border-radius: 20px;
+    -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+}
+
+
+.regenerateButton{
+    background-color: rgb(120, 15, 168);
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+}
+
+
+.regenerateButton:hover{
+    background-color: rgb(72, 0, 105);
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+}
+
+
+.spinnerPosition {
+
+    width: 100%;
+    right: 0px;
+}

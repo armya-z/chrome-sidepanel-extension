@@ -7,6 +7,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script src="./sidepanel.js" defer />
       </body>
     </Html>
   );
